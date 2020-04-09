@@ -6,7 +6,7 @@
 /*   By: jle-corr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/08 15:39:30 by jle-corr          #+#    #+#             */
-/*   Updated: 2020/04/08 19:28:14 by jle-corr         ###   ########.fr       */
+/*   Updated: 2020/04/09 18:56:01 by jle-corr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,8 +66,8 @@ int			join_newfmtstr(char **str, char *src, t_ptf *data)
 }
 
 /*
-** extract_data analyse après le % et renvoie l'adr de fin
-** whatformat dataprocess utilise la data, args et return une str
+** extract_data parse after % and return the ending adress
+** whatformat dataprocess uses data, args and return a string
 */
 
 char		*fmt_process(char *fmt, t_ptf *data, va_list *va)
